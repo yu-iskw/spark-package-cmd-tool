@@ -611,7 +611,7 @@ def main():
     p.add_option_group(credentials_options)
     # Register options
     register_options = optparse.OptionGroup(
-        p, "register",
+        p, "'register'",
         "Register your package on Spark Packages. Requires that your package exist as a Github " + \
         "repository. If credentials are not supplied through command line arguments, you will be " + \
         "asked to enter them. Example usage: spark-package register -n $PACKAGE_NAME -c $CREDS_FILE.")
